@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Dosis:wght@400;500&family=Exo+2:wght@300;400;500;600;700&family=Lato:ital@0;1&family=Merriweather&family=Poppins&family=Spline+Sans+Mono:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.p1{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(42,104,46);
+    z-index: -1;
+}
+
+.p2{
+    width: 40%;
+    height: 100vh;
+    background-color: #273e3e;
+    z-index: -1;
+}
+
+.p3{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(33,243,75);
+    z-index: -1;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+}
+
+.icons img{
+    height: 40px;
+    width: 50px;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.logoDesign img{
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.heading{
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: rgb(33,243,75);
+    font-weight: bold;
+}
+
+p::first-letter{
+    color: azure;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(243,235,235);
+    padding-top: 16px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.food img{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 190px;
+    height: 450px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.quotes{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 3rem;
+    color: rgb(215,217,224);
+}
+
+.quotes::first-letter{
+    color: rgb(33,243,75);
+}
+
+.live::first-letter{
+    color: rgb(33,243,75);
+}
+
+.be::first-letter{
+    color: rgb(27,196,61);
+}
+
+button{
+    padding: 15px;
+    color: rgb(50,48,48);
+    background-color: rgb(33,243,75);
+    border: none;
+    font-weight: bold;
+}
+
+.menu:hover{
+    font-size: 1.5rem;
+    color: rgb(42,104,46);
+}
+
+button:hover{
+    background-color: rgb(11,90,26);
+}
